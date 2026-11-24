@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@source "../*.html";
+@font-face {
+    font-family: IranSans;
+    src: url(../font/Iranian\ Sans.ttf);
+}
+@theme{
+    --font-sans: IranSans;
+}
